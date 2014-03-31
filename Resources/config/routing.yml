@@ -1,0 +1,11 @@
+proyectos_departamento_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ProyectosDepartamentoBundle:Default:index }
+
+create:
+    pattern:  /create/
+    defaults: { _controller: ProyectosDepartamentoBundle:Default:crear }
+
+show:
+    pattern:  /show/{id}
+    defaults: { _controller: ProyectosDepartamentoBundle:Default:muestraAlumno }
